@@ -1,2 +1,12 @@
 {
+"API Board Creation": {
+"type": "Internal",
+"assertionPattern": ".*Then the response code is.*",
+"storyPattern": ".*Board creation.*",
+"scenarioPattern": ".*Use API for Trello Board creation.*",
+"stepPattern": ".*Then the response code is.*",
+"dynamicPatterns": {
+"currentPageUrl": ".*https://api.trello.com/1/boards/*."
+}
+}
 }
